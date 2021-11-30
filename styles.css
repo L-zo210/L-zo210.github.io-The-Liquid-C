@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/*Universal Styles*/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  }
+  
+body {
+  background-color: #252529;
+  color: #eee;
+  font-family: 'Lato', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+  
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 40px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+/*Nav Bar*/
+  
+.navbar {
+  background-color: #252529;
+  height: 40px;
+  margin-top: 10px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .flex { 
+  justify-content: space-between;
+ 
+}
+
+.navbar a {
+  color: #fff;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.navbar a:hover {
+  border-bottom: 2px #fff solid;
+}
+
+
+/*Songs*/
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.songs {
+  background-image: url('./images/DarkClouds.jpg');
+  background-position: center;
+  background-size: cover;
+  margin: 30px;
+}
+
+.list-heading {
+  font-size: 2em;
+}
+
+.song-list {
+  margin: 50px auto;
+}
+
+.song-list ol {
+  margin-left: 15px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+}
+
+footer {
+  text-align: center;
+  height: 30px;
+  background-color: rgb(17, 17, 17);
+  margin-top: 10px;
+  padding: 5px 5px;
+}
